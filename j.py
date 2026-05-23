@@ -14,5 +14,3 @@ if tempo_gasto > tempo_total:
     print(0)
 else:
     print(nota_brinquedo)
-
-

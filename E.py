@@ -1,35 +1,19 @@
 
-
-# palavra = list(map(str, input()))
-# palavrar = palavra.reverse()
-# print(palavra)
-# print(palavrar)
-
-# # for i in range(10):
-# #     if i == b:
-# #         i = i -1
-# #     else:
-# #         print('NAO') 
-# #         # break
-    
-# #     print("SIM") 
-
-        
-    
+# palavra_reverse = palavra.sort(reverse=True)
 
 
 
 palavra = list(map(str, input()))
-
-min = -1
-cont = 0
-
+copia_palavra = palavra[:]
+copia_palavra = copia_palavra.sort(reverse=True)
 
 
-for i in range(palavra):
-    if i == '':
-        pass
-    
+# copia_palavra = copia_palavra.reverse(True)
+
+print(palavra)
+print(copia_palavra)
+
+# for i in range(10):
 #     if i == b:
 #         i = i -1
 #     else:
@@ -37,6 +21,11 @@ for i in range(palavra):
 #         # break
     
 #     print("SIM") 
+
+        
+    
+
+
 
         
     
